@@ -23,10 +23,10 @@ void loop() {
     //Se abre el solenoide
     digitalWrite(solenoide, LOW);
     //Se espera que la planta se riegue por 3 minutos
-    delay(180000)
+    delay(180000);
   } else {
     //Mantiene solenoide cerrado
-    digitalWrite(solenoide, HIGH)
+    digitalWrite(solenoide, HIGH);
   }
   //El sensor de agua vuelve a verificar despues de un dia
   delay(day);
